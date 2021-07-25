@@ -30,9 +30,9 @@ class MainActivity : AppCompatActivity() {
                     tv_wind.text = weather.wind
 
                     val forecast = weather.forecast
-                    tv_forecast1.text = "${forecast[0].temperature}/ ${forecast[0].wind}"
-                    tv_forecast2.text = "${forecast[1].temperature}/ ${forecast[1].wind}"
-                    tv_forecast3.text = "${forecast[2].temperature}/ ${forecast[2].wind}"
+                    tv_forecast1.text = "${forecast[0].temperature} / ${forecast[0].wind}"
+                    tv_forecast2.text = "${forecast[1].temperature} / ${forecast[1].wind}"
+                    tv_forecast3.text = "${forecast[2].temperature} / ${forecast[2].wind}"
                 })
 
 
